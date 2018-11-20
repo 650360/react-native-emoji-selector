@@ -419,6 +419,8 @@ const styles = StyleSheet.create({
     },
     scrollview: {
         flex: 1,
+        height: '65%',
+        width: '100%',
     },
     searchbar_container: {
         width: '100%',
@@ -432,7 +434,13 @@ const styles = StyleSheet.create({
                 paddingLeft: 8,
                 borderRadius: 10,
                 backgroundColor: '#E5E8E9'
-            }
+            },
+            android: {
+                height: 36,
+                paddingLeft: 8,
+                borderRadius: 10,
+                backgroundColor: '#E5E8E9',
+            },
         }),
         margin: 8,
     },
