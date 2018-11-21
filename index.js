@@ -231,7 +231,7 @@ export default class EmojiSelector extends Component {
             let largeList =  [];
             categoryKeys.forEach(c => {
                 const name = Categories[c].name;
-                const list = name === Categories.history.name ? history : emojiList[name]  
+                const list = emojiList[name]  
                 if (c !== 'all' && c !== 'history') 
                     largeList = largeList.concat(list);
             });
@@ -251,8 +251,6 @@ export default class EmojiSelector extends Component {
                     return display;
                 });
                 list = sortEmoji(filtered);
-            } else if (name === Categories.history.name) {
-                list = history
             } else {
                 list = emojiList[name];
             }
