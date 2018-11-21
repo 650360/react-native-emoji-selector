@@ -308,6 +308,7 @@ export default class EmojiSelector extends Component {
                     underlineColorAndroid={this.props.theme}
                     value={this.state.searchQuery}
                     onChangeText={text => this.setState({ searchQuery: text })}
+                    underlineColorAndroid='rgba(0,0,0,0)'
                 />
             </View>
         );
@@ -453,6 +454,6 @@ const styles = StyleSheet.create({
         margin: 8,
         fontSize: 17,
         width: '100%',
-        color: '#8F8F8F'
+        color: 'white'
     }
 });
