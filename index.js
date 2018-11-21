@@ -21,10 +21,6 @@ export const Categories = {
         symbol: null,
         name: 'All'
     },
-    history: {
-        symbol: '🕘',
-        name: 'Recently used'
-    },
     people: {
         symbol: '😊',
         name: 'Smileys & People'
