@@ -414,7 +414,7 @@ const styles = StyleSheet.create({
     },
     scrollview: {
         flex: 1,
-        height: '65%',
+        height: '80%',
         width: '100%',
     },
     searchbar_container: {
