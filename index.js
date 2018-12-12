@@ -393,8 +393,6 @@ const styles = StyleSheet.create({
   },
   scrollview: {
     flex: 1,
-    height: '80%',
-    width: '100%',
   },
   searchbar_container: {
     width: '100%',
