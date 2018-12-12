@@ -235,7 +235,6 @@ export default class EmojiSelector extends Component {
       let name = Categories[c].name;
       emojiList[name] = sortEmoji(emojiByCategory(name));
     });
-    console.log('Prerendered emojis');
     this.setState({ 
       emojiList, 
       colSize: Math.floor(width / this.props.columns)
